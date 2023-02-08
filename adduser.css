@@ -1,0 +1,77 @@
+.contentdiv1
+{
+background-image:url("../P/t4.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+float : left;
+width : 82%;
+height:100%;
+overflow-x:hidden;
+overflow-y:auto;
+}
+
+input[type=text],input[type=password], select {
+  width: 97%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+
+h1
+{
+  color:white;
+}
+
+
+
+input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  color: white;
+  margin:15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float: right;
+  font-weight: 950;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color:khaki;
+  color:black;
+}
+
+.container {
+  backdrop-filter: blur(6px);
+  background-color:rgba(0, 0, 0, .6);
+  border-radius: 20px;
+  padding: 20px;
+  width:60%;
+  height:73%;
+  margin:auto;
+ 
+}
+
+.container table
+{
+margin:auto;
+width: 85%;
+}
+
+.container td
+{
+color:white;
+padding:3px;
+}
+.bt {
+                             margin-right: 50px;
+     border-radius: 4px;
+    padding: 12px 30px;
+    float:right;
+   text-decoration: none;
+   letter-spacing: 1px;
+  text-decoration: none;
+  color: #F8F8FF;
+  background-color: #483d83;
+}

@@ -1,0 +1,297 @@
+ *{
+     margin:0;  padding:0; 
+     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }  
+.ad{
+ background-color:#DB7093;
+ 
+}
+#myBtn {
+    color:#FFF0F5;
+     font-size: 15px;
+     background-color:#DB7093;
+    padding: 6px 25px;
+    text-decoration:none;
+}
+
+   
+
+
+.adm {
+    color:#FFF0F5;
+    text-decoration:none;
+}
+
+#t{
+    background-color:#FDF5E6; 
+    height:10%;
+}
+.t1{
+    padding:20px;
+    color:191970;
+}
+body{
+         background-image: url("../P/bt17.jpg");
+        
+      background-size: cover;
+     background-repeat: no-repeat;
+ }
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   padding: 12px ; 
+  display: none;
+  position: absolute; 
+  background-image:linear-gradient(to bottom, #6600ff 0%, #ff99ff 100%);
+  width: 160px; 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+ padding: 12px ;
+ text-align:center;
+  width: 160px;
+  margin:auto;
+   text-decoration: none;
+  display: inline;
+}
+
+/* Change color of dropdown links on hover */
+ .dropdown-content a:hover { background-image:linear-gradient(to bottom, #660033 0%, #cc3300 100%); width: 160px;}
+ 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;  width: 160px; }
+
+
+ nav{
+          width:100%; height: 15vh;
+            background: rgba(0,0,0,0.2);
+            color: white; display: flex; justify-content: space-between;
+           align-items: center; text-transform: uppercase;
+        }
+
+ 
+
+ .menu{
+           width: 40%; 
+            display: flex; justify-content: space-around;
+ }
+
+ .menu a{
+         width: 25px; 
+         text-decoration: none; color:white;
+         font-weight:bold;
+  }
+nav .logo{
+       width: 20%; text-align: center;
+       
+       
+    }
+.logo1{
+   border-radius:100px;
+   float:left;
+   height:100px;
+   width:100px;
+}
+.l1{
+   font-family:sans-serif;
+   padding:30px;
+   text-align:center;
+}
+
+
+.g1{
+   
+     background-image:url("../P/bt.jpg");
+      background-repeat:no-repeat;
+}
+  .main2 { 
+
+   background :linear-gradient(powderblue,pink,red);
+   color: 800080;
+   text-align: justify;
+  padding:50px;
+    position: absolute;
+} 
+ .ap{
+  color: #000080;
+}
+a.abs  {
+    margin-right: 50px;
+  
+     border-radius: 4px;
+    padding: 12px 30px;
+    float:left;
+   text-decoration: none;
+   letter-spacing: 1px;
+  text-decoration: none;
+  color: #F8F8FF;
+  background-color: #DB7093;
+//   background: linear-gradient(to right, #003366 0%, #ff6666 100%);
+}
+a.abs1  {
+    margin-right: 50px;
+  
+     border-radius: 4px;
+    padding: 12px 30px;
+    float:left;
+   text-decoration: none;
+   letter-spacing: 1px;
+  text-decoration: none;
+  color: #F8F8FF;
+ 
+   background-color:  #483d83;
+} 
+main{
+           width: 100%;
+            height: 85vh;
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+             text-align: center; color: white;
+        }
+
+
+
+section h3{
+       font-size: 35px; font-weight: 200;
+       letter-spacing: 3px;
+        text-shadow: 1px 1px 2px black;
+        
+}
+
+section h1{
+       
+        margin: 30px 0 20px 0;
+       font-size: 55px; 
+      font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+      
+}
+
+section p{
+       font-size: 25px;
+      word-spacing: 2px;
+      margin-bottom: 25px;
+      text-shadow: 1px 1px 1px black;
+}
+
+.log a{
+     padding: 12px 30px;
+     border-radius: 4px;
+     outline: none;
+     text-transform: uppercase;
+     font-size: 13px;
+     font-weight: 500;
+   text-decoration: none;
+   letter-spacing: 1px;
+  
+}
+
+ section .btnone{
+              
+            background: #fff;
+           color: #000;
+}
+
+div .btntwo{
+              background: #00b894; 
+           color: white;
+          float: right;
+} 
+.btntw{
+              background: #00b894; 
+           color: white;
+          float: right;
+} 
+section .form
+   {
+     width:50%; 
+     padding: 12px 30px;
+     border-radius: 4px;
+     outline: none;
+     text-transform: uppercase;
+     font-size: 13px;
+     font-weight: 500;
+   text-decoration: none;
+   letter-spacing: 1px;
+
+ } 
+.form input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+ .form input[type=text]:focus {
+  width: 100%;
+}
+section .form1
+   {
+        background-image: linear-gradient(to left,black, green); 
+                color: lawngreen; 
+  
+     padding: 10px 20px;
+     border-radius: 3px;
+     outline: none;
+     text-transform: uppercase;
+     font-size: 12px;
+
+   text-decoration: none;
+   letter-spacing: 1px;
+
+ }
+
+ #fa1 {
+  padding: 30px;
+  float:right;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+   border-radius: 50%;
+}
+ .fa:hover {
+  background-color: #000;
+  opacity: 0.7;
+}
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+ .fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.st{
+   //  width:300px;
+   //  height:300px;
+     background-image:url('../P/bt1.png');
+       //   background-image: linear-gradient(blue, green)
+      background-repeat:no-repeat;
+            }
+
+

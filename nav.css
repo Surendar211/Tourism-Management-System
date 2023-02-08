@@ -1,0 +1,37 @@
+.sidenav {
+  height: 100%;
+  width: 14%;
+  float:left;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: 1px solid #204014;
+  background: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: black;
+  background-color: bisque;
+}
+
+/*.active {
+  background-color: bisque;
+  color: black;
+}*/
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+

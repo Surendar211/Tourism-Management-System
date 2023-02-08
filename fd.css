@@ -1,0 +1,106 @@
+*{
+     margin:0;  padding:0; 
+     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  } 
+
+body {
+       background-image: url("../P/n5.jpg");
+    
+      background-size: cover;
+     background-repeat: no-repeat;
+     font-family: sans-serif;
+        }
+.c{ 
+  
+  color:#DA70D6;
+}
+
+.c1{ 
+   padding:20px;
+   color:#FFF5EE;
+  
+}
+
+.radio-inline {
+          margin: 0px 40px 0 px 20 px;
+          cursor:pointer;
+}
+label1 {
+       color:#000;
+}
+.c2{
+        color:hsl(50,50%,60%);
+        width: 59%;
+        font-size:22px;
+}
+#text2 {
+    height: 40px;
+    border-radius: 5px;
+    width: 70% ;
+    padding-left: 10px;
+   font-size: 14px;
+  border: none;
+  color: #00ff7f;
+}
+
+
+
+input {
+ padding: 10px;  
+margin: 10px ;
+background-color: rgba(60,60,60,0.5);
+color: #fff;
+border: none;
+outline: none;
+}  
+ input::placeholder{
+ color:#fff;
+} 
+textarea {
+ padding: 10px;
+ margin: 10px;
+ width: 70%;
+ background-color:rgba(60,60,60,0.5);
+ color:#fff;
+ border: none;
+ outline: none;
+ } 
+textarea::placeholder {
+   color: #fff;
+ }
+
+.submit {
+    width:30% ;
+   
+   padding: 4px ;
+   outline: none;
+  font-size: 20px;
+  font-weight: bold;
+ letter-spacing: 2px;
+ height: 33px;
+ text-align: center;
+ cursor: pointer;
+ letter-spacing: 2px;
+ margin-left: 3% ;
+  background: linear-gradient(powderblue,pink,red);
+
+     color: blue;
+
+}
+.submit:hover {
+ border: 1px solid #fff;
+ color: purple;
+ cursor: pointer;
+}
+(max-width: 768px) {
+#contact-section .contact-form {
+   display: block;
+   width: 100% ;
+   text-align: center;
+ }
+#contact-section .submit {
+  width: 60% ;
+}
+}
+ 

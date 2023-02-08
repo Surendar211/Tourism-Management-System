@@ -1,0 +1,32 @@
+
+                        .bt{
+                             margin-right: 50px;
+     border-radius: 4px;
+    padding: 12px 30px;
+    
+   text-decoration: none;
+   letter-spacing: 1px;
+  text-decoration: none;
+  color: #F8F8FF;
+  background-color: #483d83;
+}
+.hs{
+color: #191970;
+}
+
+  .d1{
+  color:#000080;
+}
+                        
+			body{
+				background-image:url("../P/bt19.jpg");
+				background-repeat:no-repeat;
+				 background-size: cover;
+			}
+			fieldset{
+				width:800px;
+				background-color:rgb(153,163,216);
+			}
+			legend{
+				font-size:40;
+			}

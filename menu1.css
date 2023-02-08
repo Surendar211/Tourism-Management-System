@@ -1,0 +1,39 @@
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   padding: 12px ; 
+  display: none;
+  position: absolute; 
+  background-image:linear-gradient(to bottom, #6600ff 0%, #ff99ff 100%);
+  width: 160px; 
+  z-index:100;
+  
+}
+
+/* Links inside the dropdown */
+ul{
+	list-style-type:none;
+}
+.dropdown-content li{
+	padding-top: 6px ;
+	
+}
+.dropdown-content a{
+  color: white;
+ padding: 5px ;
+ text-align:center;
+  width: 160px;
+ 
+   text-decoration: none;
+  display:inline;
+  z-index:100;
+}
+
+/* Change color of dropdown links on hover */
+ .dropdown-content a:hover { background-image:linear-gradient(to bottom, #660033 0%, #cc3300 100%); width: 160px;}
+ 
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content {display: block; width: 160px; margin-left:16em; }
+
+
+ 

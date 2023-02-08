@@ -1,0 +1,62 @@
+		.d2{
+				z-index:2;
+				height:100%;
+				width:50%;
+				overflow:hidden;
+				position:fixed;
+				left:350px;
+				top:0px;
+				box-shadow: 0 0 10px black;
+				display:none;
+				border:3px outset;
+				border-radius:50px;
+				background-color:white;
+			}
+			
+			.hd2{
+				margin-left:0.5vw;
+			}
+			.img1{
+				right:10;
+				top:10;
+				position:absolute;
+				border-radius:1vw;
+				height:10vw;
+				width:20vw;
+			}
+			.para{
+				text-align:center;
+				font-weight:bold;
+			}
+			.dd>input[type=button]{
+				background-color:yellow;
+				font-weight:bold;
+				cursor:pointer;
+			}	
+			.dd>input[type=text]{
+			
+				font-weight:bold;
+			}
+			.dd>p{
+				text-align:center;
+				font-size:3vw;
+				color:red;
+				font-weight:bold;
+			}
+			.dd{
+				
+				text-align:center;
+			}
+			
+			.d2>input[type=button]{
+				margin-top:1vw;
+				margin-left:12vw;
+				background-color:red;
+				height:2vw;
+				width:6vw;
+				color:yellow;
+				font-weight:bold;
+				cursor:pointer;
+			}
+		
+		
