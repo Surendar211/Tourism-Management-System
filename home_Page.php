@@ -105,9 +105,7 @@ table {
 <div class="ad">
  <button id="myBtn">Admin</button>  
 </div>
-
-
-
+	
 <div id="myModal" class="modal">
 
 
@@ -149,8 +147,7 @@ table {
 		</table>
 		<br><br>
   	<input class = "bt2" type=submit value="Login" />  
-              
-		
+              		
 		 
 		</fieldset>
 		</form>
@@ -158,8 +155,6 @@ table {
   </div>
 
 </div>
-
-   
 
 <script>
 // Get the modal
@@ -188,11 +183,6 @@ window.onclick = function(event) {
   }
 }
 </script>  
-     
-  
-
-      
-
    
 <div id="t">
      <h1 class ="t1">Travel & Tourism </h1>
@@ -223,9 +213,6 @@ window.onclick = function(event) {
                  
                   
             </div>
-            
-          
-            
                        <div class="log" id="logg">
              <a href="login_page.php"class="btntwo" >Log in </a>
                </div>
@@ -241,10 +228,7 @@ window.onclick = function(event) {
                  <h3 class="hd">Your journey starts here!</h3>
                  <h1 class="hd">Dream.Explore.Discover<span> </span></h1>
                     <p class="hd">"Life is an adventure"</p>
-                   
-            
-
-           <div> 
+<div> 
 
             <a class="abs" href="#about">Know more</a><br>
                    <a name="about">  
@@ -313,24 +297,12 @@ window.onclick = function(event) {
                 window.open("eastIndia.php#wb","_self");
             }
             
-
-
         }
     </script>
    
-          </form> 
-    
-        
-       
+          </form>     
         </div>
-            
-           
-          </main>   
-   
-        
-
-                 
-                     
+              </main>                        
           <div class="main2">
                
                     <a name="about"> 
@@ -359,8 +331,7 @@ window.onclick = function(event) {
          If you're interested in an active vacation, we are here for exciting hiking and 
           skiing vacations in India.
                              </p><br>
-             
- 
+              
 <div class = "g1">
 <a class="abs" href="#images">Gallery</a> 
 <br>
@@ -434,7 +405,6 @@ window.onclick = function(event) {
     <div class="text">Goa</div>
   </div>
 
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -495,20 +465,11 @@ function showSlides(n) {
       
        
       }
-     ?>
-
-
- 
+     ?> 
 <!--   <a href="#" id="fa1" class="fa fa-google"></a>
   <a href="#" id="fa1" class="fa fa-linkedin"></a>
-  <a href="#" id="fa1"  class="fa fa-youtube"></a>  -->
- 
-     </div>  
-          
-  </section>
-      
-      
-   
-   
+  <a href="#" id="fa1"  class="fa fa-youtube"></a>  --> 
+     </div>           
+  </section>         
  </body>
 </html>
